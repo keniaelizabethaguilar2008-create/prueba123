@@ -137,3 +137,51 @@ footer {
   font-size: 0.9rem;
   margin-top: 40px;
 }
+/* 🟡 Sección Misión y Visión */
+.mision-vision {
+  padding: 60px 20px;
+  background-color: #fff8f0; /* color suave estilo comida */
+  text-align: center;
+}
+
+.mision-vision h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #e63946; /* color destacado */
+}
+
+.mv-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.mv-box {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  flex: 1 1 300px;
+  max-width: 450px;
+  transition: transform 0.3s ease;
+}
+
+.mv-box:hover {
+  transform: translateY(-5px);
+}
+
+.mv-box h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.mv-box p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
