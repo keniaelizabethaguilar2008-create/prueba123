@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-family: 'Segoe UI', Retro British, Chetta Vissto;
 }
 
 body {
@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #ffffff;
+  background-color: #CF9A76;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -137,3 +137,4 @@ footer {
   font-size: 0.9rem;
   margin-top: 40px;
 }
+
