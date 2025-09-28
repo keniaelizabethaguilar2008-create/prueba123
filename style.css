@@ -192,47 +192,5 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
   margin-top: 40px;
-/* Quita scroll horizontal */
-body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
 
-/* Contenedor del menú */
-.navbar {
-  display: flex;
-  justify-content: space-between; /* logo a la izquierda, menú a la derecha */
-  align-items: center;
-  background: #c28a62; /* color de fondo */
-  padding: 10px 15px;
-}
 
-/* El ul del menú */
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap; /* si no cabe, se baja */
-  gap: 15px;       /* espacio entre links */
-  margin: 0;
-  padding: 0;
-}
-
-/* Cada enlace del menú */
-.navbar ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-/* En pantallas pequeñas, menú centrado en vertical */
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column; 
-    align-items: center;
-  }
-  
-  .navbar ul {
-    justify-content: center;
-  }
-}
