@@ -13,6 +13,8 @@ body {
   h1, h2, h3 {
   font-family: 'Tahoma', cursive;
 }
+  {
+  overflow-x: hidden;
 }
 
 /* 🔸 Barra de navegación */
@@ -191,5 +193,25 @@ footer {
   font-size: 0.9rem;
   margin-top: 40px;
 }
+ul {
+  list-style: none;       
+  padding: 0;
+  margin: 0;
+  display: flex;          
+  flex-wrap: wrap;        
+  justify-content: center; 
+}
+
+ul li {
+  margin: 5px 10px;       
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+  display: block;
+}
+
 
 
