@@ -133,15 +133,6 @@ iframe {
   border-radius: 10px;
 }
 
-/* 🔸 Footer */
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-  margin-top: 40px;
-}
 /* 🟡 Sección Misión y Visión */
 .mision-vision {
   padding: 60px 20px;
@@ -188,6 +179,17 @@ footer {
   color: #555;
   font-size: 1rem;
   line-height: 1.6;
+}
+
+/* 🔸 Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+ font-family: 'Tahoma', cursive; 
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 40px;
 }
 
 
